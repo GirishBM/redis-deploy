@@ -12,3 +12,5 @@
 
       kubectl scale deployment/redis-deployment --replicas=2 (we also can edit the replica field in yaml file and apply it again)
  
+4.Exposing thhe container port to 66379
+      Handeled it in definition.yaml file itself.
