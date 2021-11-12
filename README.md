@@ -7,5 +7,8 @@
 2.For deploying redis in hacker-company namespace:
 
       kubectl apply -f definition.yaml
-      
+     
+3.To scale the replica to 2:
+
+      kubectl scale deployment/redis-deployment --replicas=2 (we also can edit the replica field in yaml file and apply it again)
  
